@@ -7,6 +7,12 @@ body {
   height: 100vh;
 }
 
+a {
+  text-decoration: none;
+  border: none;
+  margin: 15px;
+}
+
 body div.container {
   margin: auto;
   position: relative;
@@ -15,5 +21,9 @@ body div.container {
 }
 
 body img.plane {
-  transform: translate(-15%, -100%);  
+  transform: translate(-15%, -100%);
+}
+
+div.social-buttons {
+  margin-top: 5%;
 }
