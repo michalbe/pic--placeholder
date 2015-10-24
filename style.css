@@ -13,6 +13,17 @@ a {
   margin: 15px;
 }
 
+a:hover img {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+a img {
+  transition: transform 0.5s, opacity 0.5s;
+  transform: scale(1);
+  opacity: 0.6;
+}
+
 body div.container {
   margin: auto;
   position: relative;
@@ -25,5 +36,5 @@ body img.plane {
 }
 
 div.social-buttons {
-  margin-top: 5%;
+  transform: translateY(15vh);
 }
